@@ -16,6 +16,8 @@ namespace Custom.ArgoX3API.Infrastructure
             services.AddTransient<global::ArgoX3API.Application.Interfaces.IUnitOfWork, UnitOfWork>();
 
             // Esempio: services.AddTransient<IMioRepository, MioRepository>();
+            services.AddTransient<IActionRepository, ActionRepository>();
+            services.AddTransient<ICqRncRepository, CqRncRepository>();
         }
     }
 }
