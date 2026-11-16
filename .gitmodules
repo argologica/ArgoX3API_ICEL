@@ -1,0 +1,3 @@
+[submodule "ArgoX3API"]
+	path = ArgoX3API
+	url = https://github.com/argologica/ArgoX3API.git
