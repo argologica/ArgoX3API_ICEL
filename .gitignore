@@ -1,0 +1,71 @@
+## Visual Studio / .NET
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bld/
+artifacts/
+publish/
+.vs/
+.vshistory/
+.idea/
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+*.csproj.user
+*.dbmdl
+*.pfx
+*.publishsettings
+*.cachefile
+*.[Cc]ache
+!*.[Cc]ache/
+
+## Test / coverage
+[Tt]est[Rr]esult*/
+TestResult.xml
+*.VisualState.xml
+*.coverage
+*.dotCover
+coverage*.json
+coverage*.xml
+
+## Build artefacts
+*.ilk
+*.log
+*.pdb
+*.rsp
+*.tlog
+*.tmp
+*.tmp_proj
+*.vspscc
+*.vssscc
+*.svclog
+
+## NuGet
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+
+## Tooling
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+_NCrunch_*
+.*crunch*.local.xml
+node_modules/
+.sass-cache/
+
+## SQL / dati locali
+*.mdf
+*.ldf
+
+## OS
+~$*
+*~
+Thumbs.db
+.DS_Store

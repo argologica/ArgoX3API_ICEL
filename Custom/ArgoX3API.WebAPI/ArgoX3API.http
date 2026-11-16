@@ -1,0 +1,6 @@
+@ArgoX3API_HostAddress = http://localhost:5100
+
+GET {{ArgoX3API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

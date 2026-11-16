@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\..\ArgoX3API\ArgoX3API.Infrastructure\ArgoX3API.Infrastructure.csproj" />
+    <ProjectReference Include="..\ArgoX3API.Application\Custom.ArgoX3API.Application.csproj" />
+    <ProjectReference Include="..\ArgoX3API.Sql\Custom.ArgoX3API.Sql.csproj" />
+    <ProjectReference Include="..\SageX3.ClientLib\Custom.SageX3.ClientLib.csproj" />
+  </ItemGroup>
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+</Project>
