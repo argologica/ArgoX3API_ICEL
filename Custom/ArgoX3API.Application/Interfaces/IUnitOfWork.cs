@@ -7,6 +7,6 @@
     {
         // Esempio: IMioRepository Mio { get; }
         IActionRepository Azione { get; }
-        ICqRncRepository CqRnc { get; }
+        ICqRncRepository ControlloQualità { get; }
     }
 }

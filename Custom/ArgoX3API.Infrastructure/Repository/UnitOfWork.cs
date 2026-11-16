@@ -20,12 +20,12 @@ namespace Custom.ArgoX3API.Infrastructure.Repository
             : base(menuRepository, protocolRepository, jwtRepository, keyStoreRepository, userRepository, qrRepository, emailRepository, demoRepository)
         {
             Azione = azioneRepository;
-            CqRnc = cqRncRepository;
+            ControlloQualità = cqRncRepository;
         }
 
         // Esempio: public IMioRepository Mio { get; set; }
         // Funzioni custom
         public IActionRepository Azione { get; set; }
-        public ICqRncRepository CqRnc { get; set; }
+        public ICqRncRepository ControlloQualità { get; set; }
     }
 }

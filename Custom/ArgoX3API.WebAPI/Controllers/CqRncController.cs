@@ -51,7 +51,7 @@ namespace Custom.ArgoX3API.WebAPI.Controllers
         [HttpPost("AM_LOTCQRN")]
         public async Task<ApiResponse<X3Result>> AM_LOTCQRN([FromBody] CqRncYax3mresp yax3mresp)
         {
-            var data = await _unitOfWork.CqRnc.AM_LOTCQRN(yax3mresp);
+            var data = await _unitOfWork.ControlloQualità.AM_LOTCQRN(yax3mresp);
             return new ApiResponse<X3Result>
             {
                 Success = true,
@@ -68,7 +68,7 @@ namespace Custom.ArgoX3API.WebAPI.Controllers
         [HttpPost("YREGCQRNC")]
         public async Task<ApiResponse<X3Result>> YREGCQRNC([FromBody] CqRncYax3mresp yax3mresp)
         {
-            var data = await _unitOfWork.CqRnc.YREGCQRNC(yax3mresp);
+            var data = await _unitOfWork.ControlloQualità.YREGCQRNC(yax3mresp);
             return new ApiResponse<X3Result>
             {
                 Success = true,
@@ -83,7 +83,7 @@ namespace Custom.ArgoX3API.WebAPI.Controllers
         [HttpPost("YDELCQRNC")]
         public async Task<ApiResponse<X3Result>> YDELCQRNC([FromBody] CqRncYax3mresp yax3mresp)
         {
-            var data = await _unitOfWork.CqRnc.YDELCQRNC(yax3mresp);
+            var data = await _unitOfWork.ControlloQualità.YDELCQRNC(yax3mresp);
             return new ApiResponse<X3Result>
             {
                 Success = true,
@@ -94,13 +94,13 @@ namespace Custom.ArgoX3API.WebAPI.Controllers
 
         #region Azioni Globali
         /// <summary>
-        /// Azione globale: Caricamento online RNC
+        /// Azione globale: Caricamento onload RNC
         /// </summary>
         /// <returns></returns>
         [HttpPost("YONLDCQRNC")]
         public async Task<ApiResponse<X3Result>> YONLDCQRNC([FromBody] CqRncYax3mresp yax3mresp)
         {
-            var data = await _unitOfWork.CqRnc.YONLDCQRNC(yax3mresp);
+            var data = await _unitOfWork.ControlloQualità.YONLDCQRNC(yax3mresp);
             return new ApiResponse<X3Result>
             {
                 Success = true,
