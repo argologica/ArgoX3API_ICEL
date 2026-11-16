@@ -15,7 +15,7 @@ namespace Custom.SageX3.ClientLib.X3CustomManager
         #region Azioni campo
 
         /// <summary>
-        /// Azione-campo: Controllo Lotto
+        /// Azione-campo: Controllo Lotto CQRNC
         /// </summary>
         /// <returns></returns>
         public X3Result AM_LOTCQRN(CqRncYax3mresp yax3mresp)
@@ -28,7 +28,7 @@ namespace Custom.SageX3.ClientLib.X3CustomManager
         #region Azioni bottoni di finestra
 
         /// <summary>
-        /// Azione: Registrazione RNC
+        /// Azione: Registrazione CQRNC
         /// </summary>
         /// <returns></returns>
         public X3Result YREGCQRNC(CqRncYax3mresp yax3mresp)
@@ -37,7 +37,7 @@ namespace Custom.SageX3.ClientLib.X3CustomManager
         }
 
         /// <summary>
-        /// Azione: Cancellazione RNC
+        /// Azione: Cancellazione CQRNC
         /// </summary>
         /// <returns></returns>
         public X3Result YDELCQRNC(CqRncYax3mresp yax3mresp)
@@ -50,7 +50,7 @@ namespace Custom.SageX3.ClientLib.X3CustomManager
         #region Azioni globali
 
         /// <summary>
-        /// Azione globale: Caricamento online
+        /// Azione globale: Caricamento onload CQRNC
         /// </summary>
         /// <returns></returns>
         public X3Result YONLDCQRNC(CqRncYax3mresp yax3mresp)
