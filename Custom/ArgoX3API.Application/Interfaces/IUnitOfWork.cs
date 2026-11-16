@@ -6,5 +6,7 @@
     public interface IUnitOfWork : global::ArgoX3API.Application.Interfaces.IUnitOfWork
     {
         // Esempio: IMioRepository Mio { get; }
+        IActionRepository Azione { get; }
+        ICqRncRepository CqRnc { get; }
     }
 }

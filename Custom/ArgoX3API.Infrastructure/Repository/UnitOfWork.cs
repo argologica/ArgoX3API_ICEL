@@ -24,5 +24,8 @@ namespace Custom.ArgoX3API.Infrastructure.Repository
         }
 
         // Esempio: public IMioRepository Mio { get; set; }
+        // Funzioni custom
+        public IActionRepository Azione { get; set; }
+        public ICqRncRepository CqRnc { get; set; }
     }
 }
