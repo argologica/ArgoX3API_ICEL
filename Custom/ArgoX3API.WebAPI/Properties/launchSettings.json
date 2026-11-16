@@ -19,6 +19,16 @@
         "ASPNETCORE_ENVIRONMENT": "Prod"
       }
     },
+    "ArgoX3API - TESTPROD": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:7055;http://localhost:5230",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "TestProd"
+      }
+    },
     "ArgoX3API - TEST": {
       "commandName": "Project",
       "dotnetRunMessages": true,
