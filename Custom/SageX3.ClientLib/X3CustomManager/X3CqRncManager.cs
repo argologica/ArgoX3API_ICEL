@@ -58,6 +58,15 @@ namespace Custom.SageX3.ClientLib.X3CustomManager
             return Run("YONLDCQRNC", yax3mresp);
         }
 
+        /// <summary>
+        /// Azione globale: Caricamento onload CQRNC
+        /// </summary>
+        /// <returns></returns>
+        public X3Result YDELTCQRNC(CqRncYax3mresp yax3mresp)
+        {
+            return Run("YDELTCQRNC", yax3mresp);
+        }
+
         #endregion
 
     }

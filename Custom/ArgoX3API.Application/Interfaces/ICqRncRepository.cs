@@ -19,6 +19,7 @@ namespace Custom.ArgoX3API.Application.Interfaces
 
         #region Azioni globali
         Task<X3Result> YONLDCQRNC(CqRncYax3mresp yax3mresp);
+        Task<X3Result> YDELTCQRNC(CqRncYax3mresp yax3mresp);
         #endregion
     }
 }

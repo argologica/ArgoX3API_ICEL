@@ -107,6 +107,21 @@ namespace Custom.ArgoX3API.WebAPI.Controllers
                 Result = data
             };
         }
+
+        /// <summary>
+        /// Azione globale: Cancellazione richiamata RNC
+        /// </summary>
+        /// <returns></returns>
+        [HttpPost("YDELTCQRNC")]
+        public async Task<ApiResponse<X3Result>> YDELTCQRNC([FromBody] CqRncYax3mresp yax3mresp)
+        {
+            var data = await _unitOfWork.ControlloQualità.YDELTCQRNC(yax3mresp);
+            return new ApiResponse<X3Result>
+            {
+                Success = true,
+                Result = data
+            };
+        }
         #endregion
     }
 }

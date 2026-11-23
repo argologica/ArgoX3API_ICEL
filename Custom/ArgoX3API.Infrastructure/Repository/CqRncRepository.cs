@@ -55,6 +55,13 @@ namespace Custom.ArgoX3API.Infrastructure.Repository
             var x3Manager = new X3CqRncManager(x3Configuration);
             return Task.FromResult(x3Manager.YONLDCQRNC(yax3mresp));
         }
+
+        //Cancellazione richiamata - YDELTCQRNC
+        public Task<X3Result> YDELTCQRNC(CqRncYax3mresp yax3mresp)
+        {
+            var x3Manager = new X3CqRncManager(x3Configuration);
+            return Task.FromResult(x3Manager.YDELTCQRNC(yax3mresp));
+        }
         #endregion
     }
 }
